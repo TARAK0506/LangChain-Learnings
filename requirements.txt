@@ -1,0 +1,16 @@
+fastapi==0.100.0
+uvicorn==0.22.0
+
+
+langchain==0.2.10
+langchain-openai==0.1.17
+langchain-groq==0.1.6
+
+python-dotenv==1.0.1
+
+
+# Downgrade langserve to a compatible version
+langserve==0.2.0  # Ensure compatibility with langchain 0.2.10
+
+# Keep langchain-core at 0.2.41
+langchain-core==0.2.41
