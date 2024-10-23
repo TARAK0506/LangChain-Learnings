@@ -1,6 +1,8 @@
 # Environment variables
 .env
 
+serve.py
+
 # Virtual environments
 venv/
 venv
