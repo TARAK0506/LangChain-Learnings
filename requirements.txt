@@ -16,3 +16,9 @@ langserve==0.2.0  # Ensure compatibility with langchain 0.2.10
 langchain-core==0.2.41
 
 
+langchain-community==0.2.10
+
+
+
+
+
