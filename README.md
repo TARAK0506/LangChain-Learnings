@@ -15,6 +15,12 @@ and scalable, making it suitable for a wide range of applications.
 1. Sentence Transformers
 2. Hugging Face Transformers
 
+### Install dependencies :
+ Make sure Python is installed, then install the required packages:
+
+   ```bash
+    pip install -r requirements.txt
+   ```
 
 ### Set up Environment Variables :
 
@@ -31,10 +37,12 @@ and scalable, making it suitable for a wide range of applications.
 ### Getting Started
 1. Ensure you have Python and FastAPI installed in your environment.
 2. Install the required dependencies.
-3. Start the FastAPI server:
-```bash
-uvicorn server:app --reload
-```
+3. Set up the environment variables.
+4. Start the FastAPI server:
+
+    ```bash
+    uvicorn server:app --reload
+    ```
 4. Use a tool like Postman or curl to interact with the /chat endpoint.
 5. You can also use the Swagger UI to interact with the API by visiting http://127.0.0.1:8000/docs or use http://127.0.0.1:8000/redoc in your browser.
 
